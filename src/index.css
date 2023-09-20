@@ -4,9 +4,8 @@
 
 /* Custom CSS for LiveView Starter course */
 body {
-    @apply antialiased relative bg-slate-200 font-sans;
+    @apply antialiased relative bg-slate-800 font-sans;
   }
-  
   nav {
     @apply py-3 px-6 flex justify-end;
   }
@@ -25,7 +24,7 @@ body {
   }
   
   h1 {
-    @apply text-center text-slate-900 font-extrabold text-3xl;
+    @apply text-center text-slate-200 font-extrabold text-3xl;
   }
   
   h2 {
