@@ -27,7 +27,7 @@ export const Light = () => {
         <div>
             <h1>Front Porch Light</h1>
             <div id="light">
-                <div class="meter">
+                <div className="meter">
                     <span style={{ width: `${brightness}%`}}>
                     {brightness} %
                     </span>

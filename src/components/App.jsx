@@ -2,7 +2,7 @@ import React from 'react'
 import { Light } from './Light'
 import { Todos } from './Todos'
 
-const reactLogo = new URL('../images/react-logo.svg')
+const reactLogo = new URL('../images/react-logo.svg', import.meta.url)
 
 export const App = () => {
     return (
